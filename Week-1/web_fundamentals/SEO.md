@@ -13,3 +13,5 @@ This is how we as a web developers can optimize websites for better search engin
 - Using the new Semantic tags of html 5 it means not just using Div and span for everything use Section tag Aside tag Main tag Nav tag for making navigation bar Header tag and much more
 
 - Providing the alt tag for the image that it can display text in case image is not found that also plays a major role in Crawling process
+
+- Using the tools provided by the google such as google Analytics tool to get the type of user and provide the exact result required

@@ -1,0 +1,18 @@
+div.form{
+    width: 12cm;
+    padding: 10px 20px;
+    border: solid black 1px;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 10px;
+}

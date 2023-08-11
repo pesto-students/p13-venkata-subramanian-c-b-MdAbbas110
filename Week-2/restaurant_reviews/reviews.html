@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reviews</title>
+    <style>
+        .form {
+            width: 12cm;
+            padding: 10px 20px;
+        }
+        label {
+            width: 140px;
+            display: inline-block;
+            margin: 15px;
+        }
+        button {
+            padding: 12px;
+            background-color: rgb(203, 240, 165);
+            margin-left: 5cm;
+            margin-top: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant Reviews</h1>
+
+    <header>
+        <ul>
+            <li><a href="./details.html" target="_blank">Details</a></li>
+            <li><a href="./index.html" target="_blank">Home</a></li>
+            <li><a href="./about.html" target="_blank">About Us</a></li>
+        </ul>
+    </header>
+    <div class="form">
+        <h2>Add Your Review</h2>
+        <form action="url">
+            <label for="name">Name?</label> 
+            <input type="text" name="name">
+            <br>
+
+            <label for="">Restaurant?</label>
+            <select>
+                <option value="1">Branch 1</option>
+                <option value="2">Branch 2</option>
+                <option value="3">Branch 3</option>
+            </select>
+            <br>
+
+            <label for="month">Date of Visit?</label>
+            <input type="month" name="month" id="month">
+            <br>
+
+            <label for="num">Rating?</label>
+            <input type="number" name="num" id="num">
+            <br>
+
+            <label for="text">Details?</label>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button type="submit">Submit</button> <br>
+        </form>
+    </div>
+
+    <footer>
+        <p>© All rights reserved by Restaurant Chain </p>
+    </footer>
+</body>
+</html>

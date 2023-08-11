@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin: 20px;
+}
+.center {
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+    margin-left: 6rem;
+}
+
+h1 {
+    color: rgb(240, 163, 68);
+}
+
+h2 {
+    color: rgb(220, 146, 44);
+}

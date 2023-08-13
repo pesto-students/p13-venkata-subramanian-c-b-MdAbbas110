@@ -1,5 +1,6 @@
 {
     "cSpell.ignoreWords": [
         "feildset"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

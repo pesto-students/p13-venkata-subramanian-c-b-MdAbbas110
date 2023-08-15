@@ -2,6 +2,7 @@
     width: 600px;
     height: 500px;
     margin-left: 14rem;
+    background-color: rgb(219, 219, 210);
 }
 
 .table h1{
@@ -10,7 +11,6 @@
     font-weight: bold;
     margin-top: 1rem;
     padding-top: 1.2rem;
-    color: #fff;
 }
 
 .box {

@@ -1,0 +1,39 @@
+.table {
+    width: 600px;
+    height: 500px;
+    margin-left: 14rem;
+}
+
+.table h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-top: 1.2rem;
+    color: #fff;
+}
+
+.box {
+    display: grid;
+    grid-template-rows: 100px 100px 100px ;
+    grid-template-columns: 100px 100px 100px ;
+    gap: 1rem;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.boxes {
+    padding: 1rem;
+    border: 1.5px solid rgb(45, 153, 230);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}

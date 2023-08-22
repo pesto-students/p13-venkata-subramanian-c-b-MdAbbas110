@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starting Lineup</title>
+</head>
+<body>
+   <div class="form">
+    <h1>Starting Lineup</h1>
+
+    <form action="url">
+        <fieldset >
+            <legend>Status:</legend>
+              <input type="radio" id="draft" name="status">
+              <label for="draft">Draft</label>
+                
+              <input type="radio" id="final" checked name="status">
+              <label for="final">Final</label>
+        </fieldset>
+
+        <div class="drop">
+            <label for="date">Date:</label>
+            <select name="date">
+                <option value="20">March 20</option>
+                <option value="24">March 24</option>
+                <option value="2">April 2</option>
+                <option value="6">April 6</option>
+                <option value="13">April 13</option>
+            </select>
+        </div>
+
+        <fieldset class="play">
+            <legend>Players:</legend>
+            <input type="checkbox" name="players" id="check">
+            <label for="check">Abbas</label>
+            <br>
+            <input type="checkbox" name="players" id="shubman">
+            <label for="shubman">Shubman</label>
+            <br>
+            <input type="checkbox" name="players" id="virat">
+            <label for="virat">Virat</label>
+            <br>
+            <input type="checkbox" name="players" id="rohit">
+            <label for="rohit">Rohit</label>
+            <br>
+            <input type="checkbox" name="players" id="rishab">
+            <label for="rishab">Rishab</label>
+        </fieldset>
+
+        <input class="btn" type="submit" value="Submit">
+    </form>
+   </div> 
+</body>
+</html>

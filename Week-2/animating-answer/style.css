@@ -1,0 +1,45 @@
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 3em;
+    text-align: center;
+ }
+
+ #answer {
+    color: rgb(215, 158, 158);
+    width: 100px;
+
+    /* Part of your solution goes here */
+    animation: moveFraction 2s 1s ease-in-out ;
+    animation-fill-mode: forwards;
+ }
+
+ /* moveFraction goes here */
+@keyframes moveFraction {
+    0% {
+        color: yellow;
+        transform: translate(-355px, 60px);
+    }
+
+    50% {
+        transform: translate(60px, 0);
+    }
+
+    100% {
+        color: red;
+        transform: translate(30px,0);
+    }
+}
+
+ #question {
+    /* Part of your solution goes here */
+    transition: transform .5s;
+ }
+
+ #question:hover {
+    /* Part of your solution goes here */
+    transform: scale(1.2);
+ }
+ 
+ span {
+    display: inline-block;         
+ }

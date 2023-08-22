@@ -1,0 +1,14 @@
+div.form{
+    background: linear-gradient(45deg, rgb(154, 227, 37), yellow, orange);
+    width: 12cm;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+}

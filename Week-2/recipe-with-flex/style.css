@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-X: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff15d;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid grey;
+}
+
+.logo {
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+.home {
+    display: flex;
+    min-width: 100%;
+    height: 60vh;
+    padding-top: 2rem;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    padding-left: 2rem;
+}
+
+.heading {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid gray;
+}
+
+.heading h1{
+    font-size: 1.5rem;
+    color: brown;
+    font-weight: bold;
+}
+
+.links {
+    margin: 1.5rem;
+}
+.image {
+    display: flex;
+    justify-content:space-around;
+}
+
+.list {
+    font-size: 1.2rem;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #f8ee7c;
+}
+
+#table {
+    display: flex;
+}
+
+#table > p{
+    display: inline-block;
+    width: 130px;
+    margin: 12px;
+}
+
+.right-section {
+    margin: 0 70px;
+    min-width: 60%;
+}
+
+.top {
+    margin-bottom: 2rem;
+}
+
+.top h4 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.top ul {
+    margin-left: 1.5rem;
+}
+
+.bottom h4 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.bottom ul {
+    margin-left: 1.5rem;
+}
+
+.both {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 80%;
+    overflow-x: hidden ;
+    margin-top: 2rem;
+}
+
+.ingre {
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.ingre h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+.ingre ul {
+    margin-left: 2.5rem;
+    font-size: larger;
+}
+
+.ingre p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.directions {
+    flex: 1;
+    align-items: flex-start;
+}
+
+.directions h2 {
+    margin-bottom: 2rem
+}
+
+.directions ol {
+    word-wrap: break-word;
+    font-size: larger;
+}

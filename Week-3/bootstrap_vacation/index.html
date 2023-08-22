@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <h1>Mediterranean Vacations</h1>
+     </header>
+        <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <ul class="navbar-nav">
+                <li class="nav-item" ><a class="nav-link" href="#featured">Featured Packages</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#exotic">Exotic Vacations</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#historic">Historic Locations</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#contact">Contact Us</a></li>
+             </ul>
+        </div>
+    </nav>
+
+    <div id="benefits">
+        <div class="items">
+           <div class="benefits-inner-container">
+              <div>
+                 <img src="checkmark.png" alt="checkmark" width="30px">
+              </div>
+              <div class="benefit">
+                 <strong>Affordable!</strong> Our vacation packages give you
+                 the most bang for your buck.
+              </div>
+           </div>
+           <div class="benefits-inner-container">
+              <div>
+                 <img src="checkmark.png" alt="checkmark" width="30px">
+              </div>
+              <div class="benefit">
+                 <strong>Quality!</strong> We use only the finest lodgings
+                 and qualified tour guides.
+              </div>
+           </div>
+           <div class="benefits-inner-container">
+              <div>
+                 <img src="checkmark.png" alt="checkmark" width="30px">
+              </div>
+              <div class="benefit">
+                 <strong>Cancel Anytime!</strong> You may cancel your trip
+                 at any time for a full refund.
+              </div>
+           </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="featured">
+           <h2>Featured Packages</h2>
+           <div class="container-fluid">
+              <div class="row container">
+                 <div class="img-text">
+                    <img src="egypt_600.jpg" alt="Great Sphyinx and pyramid" width="500" height="300">
+                 
+                 <div>
+                    <h3>Egpyt</h3>
+                    <p>Egpyt is a land of enduring beauty and rich culture.
+                       Explore the capital city of <strong>Cairo</strong>,
+                       the <strong>Great Pyramids of Giza</strong>, and the
+                       iconic <strong>Great Sphinx</strong>!
+                    </p>
+                    <p>
+                       Packages include airfare, lodging, and several guided tours!
+                    </p>
+                 </div>
+                </div>
+              </div>
+           </div>
+        </section>
+  
+        <section id="exotic container container">
+           <h2>Exotic Vacations</h2>
+           <div>
+              <div class="img-text">
+                 <div>
+                    <img src="greece_600.jpg" alt="Arial view of Santonin" width="500" height="300">
+                 </div>
+                 <div>
+                    <div>
+                       <h3>Greece</h3>
+                       <p>Enjoy the scenic, peaceful Greek island of <strong>Santonin</strong>.
+                          Take a cruise, soak in the sun, and explore the
+                          idyllic villages that sit atop the cliffs!
+                       </p>
+                       <p>
+                          Packages include airfare, overnight cruises, and lodging!
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+
+        <section id="historic container">
+           <h2>Historic Locations</h2>
+           <div > 
+              <div class="img-text">
+                 <div>
+                    <img src="israel_600.jpg" alt="Jerusalem city scape" width="500" height="300">
+                 </div>
+                 <div>
+                    <div>
+                       <h3>Israel</h3>
+                       <p>Explore Israel's holy city of <strong>Jerusalem</strong>.
+                          Visit the <strong>Dome of the Rock</strong>,
+                          the <strong>Western Wall</strong>, the <strong>Church of the Holy Sepulchre</strong>,
+                          and other iconic sites!
+                       </p>
+                       <p>
+                          Packages include airfare, lodging, and several guided tours!
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+  
+        <section id="contact">
+           <h2>Contact Us</h2>
+           <p>
+              Our team of travel experts is readily available to make your dream vacation a reality!
+           </p>
+           <!-- <p>
+              <button id="send-message-btn" type="button" class="btn btn-primary" data-toggle="modal"
+                 data-target="#contact-modal">Send a message</button>
+           </p> -->
+           
+           <!-- Add Bootstrap Alert here -->
+           <section id="contact">
+            <button id="showModalBtn" class="btn btn-primary">Send a message</button>
+            
+              
+                <!-- Bootstrap Modal -->
+                <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Contact Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Input fields for user information -->
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="form-control">
+                        <label for="num">Im interested in</label>
+                        <input type="text" id="num" class="form-control">
+                        <!-- Other input fields here... -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button id="sendMessageBtn" type="button" class="btn btn-primary">Send Message</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Alert -->
+                <div id="conf-alert" class="alert alert-success collapse" role="alert">
+                  Thank you! We will contact you soon!
+                </div>
+              </section>
+              
+          
+            <!-- Alert -->
+            <div id="conf-alert" class="alert alert-success collapse" role="alert">
+              Thank you! We will contact you soon!
+            </div>
+          </section>
+          
+  
+           <p>
+              Or call us at <a href="tel:1-800-111-2222">1-800-111-2222</a>.
+           </p>
+  
+           <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                       <h5 class="modal-title" id="contact-modal-label">Contact Us</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                       </button>
+                    </div>
+                    <div class="modal-body">
+                       <form>
+                          <div class="form-group">
+                             <label for="contact-name" class="col-form-label">Name?</label>
+                             <input type="text" class="form-control" id="contact-name">
+                          </div>
+                          <div class="form-group">
+                             <label for="contact-email" class="col-form-label">Email?</label>
+                             <input type="email" class="form-control" id="contact-email" placeholder="email@example.com">
+                          </div>
+                          <div class="form-group">
+                             <label for="contact-interest" class="col-form-label">I'm interested in...</label>
+                             <select class="form-control" id="contact-interest">
+                                <option>Booking a vacation.</option>
+                                <option>Getting more information.</option>
+                                <option>Checking my vacation's status.</option>
+                             </select>
+                          </div>
+                       </form>
+                    </div>
+                    <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </section>
+    </main>
+  
+    <footer>
+        <p>
+           <a href="mailto:travel@medvacations.com">travel@medvacations.com</a>
+        </p>
+        <p>
+           &copy; 2022 Mediterranian Vacations
+        </p>
+     </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

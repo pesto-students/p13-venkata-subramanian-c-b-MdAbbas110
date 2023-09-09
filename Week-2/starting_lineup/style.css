@@ -1,0 +1,23 @@
+.form {
+    width: 15cm;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.drop {
+    margin-top: 30px;
+}
+
+.play {
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+input[value=Submit] {
+    font-size: 1.5rem;
+    padding: 10px;
+}

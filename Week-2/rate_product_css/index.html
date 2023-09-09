@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rate A Product</title>
+</head>
+<body>
+    <main>
+        <h1>Rate a Product</h1>
+        <p> Indicates required field.</p>
+        <form action="URL">
+            <div>
+                <label class="required" for="pro">Product</label>
+                <input type="text" id="pro" required>
+            </div>
+            <div>
+                <label class="required" for="date">Purchase Date</label>
+                <input type="text" id="date" required>
+            </div>
+            <div>
+                <label class="required" for="rate">Rating</label>
+                <input type="number" id="rating" required>
+            </div>
+            <div>
+                <label for="com">Comments</label>
+                <textarea name="com" id="com" cols="40" rows="7"></textarea>
+            </div>
+            <button class="btn" value="Submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

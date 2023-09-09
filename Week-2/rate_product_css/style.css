@@ -1,0 +1,38 @@
+label {
+    display: inline-block;
+    width: 140px;
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(175, 225, 237);
+    border: 2px solid grey;
+}
+
+.btn {
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: rgb(175, 225, 237);
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+}
+
+p::before {
+    content: "*";
+    color: red;
+    margin-right: 2px;
+}
+

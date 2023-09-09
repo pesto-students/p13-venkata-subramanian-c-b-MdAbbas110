@@ -1,0 +1,22 @@
+main {
+    background-color: #EDF4FB;
+    width: 80%;
+}
+h1 {
+    color: rgb(26, 69, 107);
+    font-size: 2.5rem;
+}
+
+ul {
+    color: #296CA8;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+span {
+    background-color: rgb(244, 244, 20);
+}
+
+p {
+    font-size: 1.5rem;
+}

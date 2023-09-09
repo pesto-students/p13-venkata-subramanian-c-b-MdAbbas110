@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window object</title>
+</head>
+<body>
+    
+    <script>
+        function displayWindowProperties() {
+            //Display the user Agent String
+            console.log(`User Agent:` + window.navigator.userAgent);
+
+            //Display the user screen damnation 
+            console.log(`User Screen Width: ` + window.screen.width);
+            console.log(`User Screen Hight: ` + window.screen.hight);
+
+            //Display the current URl
+            console.log(`User Current URL: `+ window.location.href);
+
+            //Display the current path of the URl
+            console.log(`User Path name :`+ window.location.pathname);
+
+            //Storage Option in the browser
+            window.localStorage.setItem('abbas', 'Value')
+
+            const local = window.localStorage.getItem('abbas')
+            console.log(local);
+
+            window.sessionStorage.setItem('pesto', 'MERN')
+            const session = window.sessionStorage.getItem('pesto')
+            console.log(session);
+        }
+
+        window.onload = function () {
+            displayWindowProperties()
+        }
+    </script>
+</body>
+</html>
